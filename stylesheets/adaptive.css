@@ -1,0 +1,57 @@
+@media screen and (max-width: 1340px) {
+  nav.sidebar {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .fourthSection {
+    width: 100%;
+  }
+  #index img {
+    width: 100%;
+  }
+  #about section {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+  #about .secondSection {
+    flex-direction: column-reverse;
+  }
+  #about section div {
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px 0;
+  }
+  #about section img {
+    width: 100%;
+  }
+  .fourthSection h2,
+  .secondSection p {
+    padding: 0 20px;
+    text-align: left;
+  }
+  .fourthSection h2 {
+    margin-top: 30px;
+  }
+  #about .fourthSection div {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #index h1,
+  #index h2,
+  #index h3,
+  #index h4,
+  #index h5,
+  #index p,
+  #index blockquote,
+  #index ol,
+  #index ul {
+    width: 100%;
+    padding: 0 24px;
+  }
+  #index blockquote::before {
+    left: 0;
+  }
+}
